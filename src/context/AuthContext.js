@@ -6,6 +6,7 @@ import { onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndP
 
 
 const AuthContext = React.createContext()
+// const AuthContext = React.createContext()
 
 export function useAuth(){
     return useContext(AuthContext);
